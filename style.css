@@ -1,0 +1,33 @@
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.row {
+    display: flex;
+    justify-content: center; /* выравнивает фелкэлементы по ширине */
+    align-items: center; /* выравнивает фелкэлементы по высоте */
+}
+.column {
+    width: 50%;
+
+}
+.col-21 {
+    width: 50%;
+}
+.col-22 {
+    width: 50%;
+}
+.col-2 {
+    background-color: rgb(255, 255, 255);
+    align-self: stretch;
+    align-items: center;
+    text-align:center; 
+}
+.col-1 {
+    background: linear-gradient(#e66465, #9198e5);
+    align-self: stretch;
+    align-items: center;
+    text-align:center; 
+    padding-top: 50px;
+}
